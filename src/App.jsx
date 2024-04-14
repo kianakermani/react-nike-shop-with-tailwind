@@ -8,12 +8,13 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections";
+import Nav from "./components/Nav";
 
 export default function App() {
   return (
     <>
       <main className="relative">
-        Nav
+        <Nav />
         <section className="x1:padding-1 wide:padding-r padding-b ">
           <Hero />
         </section>
